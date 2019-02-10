@@ -54,6 +54,7 @@ textarea:focus {
 	line-height: 2;
 	color: #555;
 	margin: 0 auto;
+	font-weight: 600;
 }
 
 .portfolio-content img {
@@ -109,7 +110,7 @@ h3 {
 }
 
 .navbar {
-	background-image: url("/images/brand.jpg");
+	background-image: url("/lavacahacemu/images/brand.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -226,29 +227,31 @@ span {
 }
 
 @media only screen and (max-width: 800px) {
-/*
+	/*
 	body {
 			background-color: lavender;
 	}
 */
 
 	.navbar-brand {
-			font-size: 2.75em;
+		font-size: 2.75em;
 	}
 
-	h1, h2, h3 {
-			font-size: 120%;
+	h1,
+	h2,
+	h3 {
+		font-size: 120%;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-/*
+	/*
 	body {
 			background-color: lightblue;
 	}
 */
 
 	.navbar-brand {
-			font-size: 2em;
+		font-size: 2em;
 	}
 }
